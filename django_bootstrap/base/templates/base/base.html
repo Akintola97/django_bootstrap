@@ -16,8 +16,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Open+Sans&family=Poppins&family=Satisfy&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel = 'stylesheet' href = "{% static '/css/style.css' %}"> 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     
     
@@ -30,36 +32,39 @@
     
 </head>
 
-<body class = 'home-page'>
+<header class = 'nav-bar'>
     
- <nav id = 'navbar'>
-        <div class= 'logo'>
-        <a class = 'logo-link' href = 'home.html'><span id = 'logo'><i class="fas fa-tooth"></i></span></a>
-        <a id = 'logo-link' href = 'home.html'><h2 class = 'dentist-name'>Orthodontist</h2></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class= 'logo-img'>
+            <a class = 'logo-link' href = 'home.html'><span id = 'logo'><i class="fas fa-tooth"></i></span></a>
+            </div>
+        <a class="navbar-brand" href="home.html">Dentist</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="appointment.html">Appointment</a>
+            </li>
+          </ul>
         </div>
-  <ul class = 'nav-tabs'>
-        <li id = 'nav-link'><a href = 'about.html'>About Us</a></li>
-        <li id = 'nav-link'><a href = 'services.html'>Services</a></li>
-        <li id = 'nav-link'><a href = 'contact.html'>Contact</a></li>
-        <li id = 'nav-link'><a href = 'shop.html'>Shop</a></li>
-        <li id = 'nav-link'><a href = 'appointment.html'>Appointment</a></li>
-        
+      </nav>
 
-        <div class = 'bars'>
-            <i class="fas fa-bars"></i>
-        </div>
-    </ul> 
-    </nav> 
 
- <nav id = 'vertical-nav'>
-        <ul class = 'vertical-tabs'>
-            <li id = 'vertical-links'><a class = 'vertical-ref-about' href = 'about.html'>About Us</a></li>
-            <li id = 'vertical-links'><a class = 'vertical-ref-service'  href = 'services.html'>Services</a></li>
-            <li id = 'vertical-links'><a class = 'vertical-ref-contact' href = 'contact.html'>Contact</a></li>
-            <li id = 'vertical-links'><a class = 'vertical-ref-store' href = 'shop.html'>Store</a></li>
-            <li id = 'vertical-links'><a class = 'vertical-ref-appointment' href = 'contact.html'>Appointment</a></li>
-   
-        </nav>
 
         <script>
             $('.bars').click(function(){($('#vertical-nav').fadeToggle(600))}); 
@@ -73,7 +78,7 @@
 
 
            </script> 
-        </body>
+        </header>
 
 
         {% block content %}
