@@ -10,15 +10,40 @@
     background:linear-gradient(rgb(66,2,194), rgb(0, 78, 194));
 }
 
-
-    
-    
-
+.logo-img{
+    color:white;
+    font-size: 20px;
+    padding-right:8px;
 }
 
 
+#vid{
+    position: relative;
+
+}
+
+#vid video{
+    height:100%;
+    width:100%;
+    background-position:absolute;
+    z-index:10;
+    object-fit: cover;
+}
+
+#vid .content{
+background:rgba(0,0,0,0);
+height:100%;
+width:100%;
+z-index: 20;
+position: absolute;
+top:0;
+left:0;
+}
 
 
+#vid .content h1{
+    color:black;
+}
 
 
 
