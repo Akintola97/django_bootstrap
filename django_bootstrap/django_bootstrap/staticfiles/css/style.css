@@ -92,9 +92,25 @@ left:0;
     width:100%;
     height:53vmin;
     background:url("/images/white-patient.jpeg");
-    background-repeat: no-repeat;
+   background-repeat: no-repeat;
+   position:relative;
+   background-size:150%;
 }
 
+.banner .banner-content{
+background:rgba(0,0,0,0.7);
+height:100%;
+width:100%;
+padding-top:19vmin;
+}
+.banner .banner-content h1{
+font-size:6vmin;
+color:white;
+}
+.banner .banner-content p{
+font-size:2vmin;
+color:white;
+}
 
 
 
