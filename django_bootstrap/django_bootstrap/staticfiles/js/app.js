@@ -7,9 +7,6 @@
         console.log('productId:', productId, 'action:', action)
     })
 } */
-
-
-
 /**
  * Object Fit Videos
  * Polyfill for object-fit and object-position CSS properties on video elements
