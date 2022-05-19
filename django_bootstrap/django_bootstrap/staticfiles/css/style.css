@@ -28,6 +28,7 @@
     background-position:absolute;
     z-index:10;
     object-fit: cover;
+    font-family:'object-fit:cover;';
 }
 
 #vid .content{
