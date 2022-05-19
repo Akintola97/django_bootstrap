@@ -88,6 +88,12 @@ left:0;
 
 
 /* 3rd container */
+.banner{
+    width:100%;
+    height:53vmin;
+    background:url("/images/white-patient.jpeg");
+    background-repeat: no-repeat;
+}
 
 
 
