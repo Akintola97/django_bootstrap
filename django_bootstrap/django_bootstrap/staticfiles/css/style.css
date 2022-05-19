@@ -55,7 +55,7 @@ left:0;
     background-color: aliceblue;
 }
 
-.dental-image img{
+.section-1 .row .col-md-6 .dental-image img{
     width:365px;
     height:450px;
     border-radius: 0.2em;
@@ -76,12 +76,12 @@ left:0;
     z-index: 1;
 }
 
-.section-1 .row .col-md-6 .panel h1{
+.section-1 .row .col-md-6 .caption h1{
     font-weight:bold; 
     padding: 0.4em 0;
     font-size:1em; 
 }
-.section-1 .row .col-md-6 .panel p{
+.section-1 .row .col-md-6 .caption p{
     font-size: 0.9em; 
     color:rgba(0,0,0,0.5);
 }
@@ -112,7 +112,25 @@ font-size:2vmin;
 color:white;
 }
 
+.procedure-example .example-procedure{
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    width:17rem;
+    height:12rem;
+    padding-top:3.5vmin;
+    margin:1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.5);
+}
 
+.procedure-example{
+    margin-top:-15vmin;
+}
+
+.procedure-example .example-procedure h1{
+    font-size: 3rem;
+}
 
 @media(max-width:375px){
     .container-three{
