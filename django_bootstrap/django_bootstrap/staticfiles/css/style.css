@@ -141,9 +141,13 @@ color:white;
     width:120px;
 }
 
+/*footer*/
 
 .footer-new{
     background-color: aliceblue;
+}
+.office-hours{
+    display: inline;
 }
 
 
