@@ -141,16 +141,43 @@ color:white;
     width:120px;
 }
 
+
+
 /*footer*/
 
 .footer-new{
-    background-color: aliceblue;
+    background-color: black;
 }
+
+.contact-details{
+    color:white;
+}
+.contact-details p{
+    font-size: .9em;
+}
+
 .office-hours{
-    display: inline;
+    color:white;
+}
+.office-hours p{
+    font-size: .9em;
 }
 
+.quick-links{
+   
+    color:white;
+}
+.quick-links a{
+    text-decoration: none;
+    color:white;
+}
+.quick-links p{
+  font-size: .7em;
+}
 
+.social-links h4{
+    color:white;
+}
 
 
 
