@@ -125,7 +125,9 @@ color:white;
 
 /*4th section*/
 
-
+.section-4{
+    background-color:white;
+}
 
 .insurance-text h1{
     font-size:4vmin;
@@ -133,6 +135,19 @@ color:white;
 .insurance-text h6{
     font-size:2vmin;
 }
+
+.insurance-images .row img{
+    height:120px;
+    width:120px;
+}
+
+
+.footer-new{
+    background-color: aliceblue;
+}
+
+
+
 
 
 
