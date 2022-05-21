@@ -31,6 +31,7 @@
     z-index:10;
     object-fit: cover;
     font-family:'object-fit:cover;';
+    display: block;
 }
 
 #vid .content{
@@ -216,6 +217,7 @@ color:white;
     z-index:10;
     object-fit: cover;
     font-family:'object-fit:cover;';
+    display: block;
 }
 
 #vid-2 .content{
@@ -265,28 +267,52 @@ left:0;
 
 
 /*services page */
-
-
-
 body .cover-vid {
 position:relative;
+
 }
 body .cover-vid video{
 width:100%;
 height:100%;
+display:block; /*This gets rid of the small margin under the video*/
+
 }
 
 .cover-overlay{
-    background-color: rgba(0,0,0,0.05);
+    background-color: rgba(0,0,0,0.11);
     position:absolute;
     top:0;
     left:0;
     height:100%;
     width:100%;
+    padding:0;
+
+  
 }
 .cover-overlay h1{
     font-size:5.5vmin;
+    
+    color:white;
 }
+.cover-overlay p{
+    color:white;
+}
+
+
+
+.full-service{
+    height:400px;
+    background-color: white;
+}
+.full-service h4{
+   font-size: 4vmin;
+}
+
+
+
+
+
+
 
 
 

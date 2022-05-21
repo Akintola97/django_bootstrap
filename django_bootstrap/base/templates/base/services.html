@@ -8,20 +8,32 @@
 <body>
    <div class="container-fluid p-0">
 <div class="cover-vid">
-<video autoplay loop muted playsinline>
+<video autoplay loop muted playsinline display:block>
 <source src='{% static "/videos/dentist.mp4" %}' type = 'video/mp4'>
 </video>
 
 <div class="cover-overlay d-flex justify-content-center align-items-center">
-   <div class="container text-center">
-<h1>We've got you covered</h1>
-<a class = 'btn btn-outline-dark btn-lg' href='{% url "appointment" %}'>Book Appoinment</a>
+   <div class="container text-left">
+      <div class="row">
+         <div class="col-md-6">
+<h1>Your one shop stop for all things dental</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis nisl mi, ut ultrices urna vestibulum in. Cras at ipsum ipsum. Phasellus efficitur dolor faucibus, porttitor massa nec, feugiat sem. Praesent semper leo vitae nulla lobortis imperdiet. Mauris ac erat bibendum, malesuada elit vitae, blandit est. </p>
+<a class = 'btn btn-outline-light btn-lg' href='{% url "appointment" %}'>Book Appoinment</a>
+</div>
+</div>
 </div>
 </div>
 </div>
 </div>
 </body>
-
+<main>
+   <div class="contaniner-fluid">
+      <div class="full-service text-center pt-4">
+         <h4>DDS is a full service dental office that provides family, pediatric, restorative and cosmestic dentistry</h4>
+         <h7>Click on any of the services below, to inqure more information.</h7>
+      </div>
+   </div>
+</main>
 
 
 
