@@ -99,7 +99,7 @@ left:0;
 
 
 .banner .banner-content{
-background:rgba(0,0,0,0.35);
+background:rgba(0,0,0,0);
 height:100%;
 width:100%;
 padding-top:19vmin;
@@ -277,6 +277,7 @@ height:100%;
 }
 
 .cover-overlay{
+    background-color: rgba(0,0,0,0.05);
     position:absolute;
     top:0;
     left:0;
