@@ -34,13 +34,11 @@
   
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="shop.html">Shop</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="cart.html"> <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
-            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-          </svg></a>
+          <a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
         </li>
         
       </ul>
@@ -48,20 +46,12 @@
   </nav>
 </header>
 
-
-
-
-
-
-
-
-
 <body class = "mainshop">
           <div class="container-fluid text-center">
-          <div class="row">
+          <div class="row pt-5 pb-5">
             {% for product in products %} 
             <div class="col-sm-3">
-              <div class="card" style="width:18rem;">
+              <div class="card">
                 <img src="{{product.image.url}}" class="card-img-top" alt="..."> 
                 <div class="card-body">
                   <h5 class="card-title">{{product.name}}</h5>
@@ -86,4 +76,47 @@
      </body>
 </html>
 
+<footer class="footer-new">
+  <div class="container-fluid text-center">
+    <div class="row">
+      <div class="col-md-3">
+    <div class="contact-details mt-4">
+      <h5>CONTACT DETAILS</h5>
+      <p>East 64th Street <br>New York, NY 10021</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="office-hours mt-4">
+        <h5>OFFICE HOURS</h5>
+        <p>Monday:8am to 5pm</p>
+        <p>Tuesday:8am to 5pm</p>
+        <p>Wednesday:8am to 5pm</p>
+        <p>Thursday:8am to 5pm</p>
+        <p>Friday:11am to 4pm</p>
+        <p>Saturday:12pm to 3pm</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="quick-links mt-4">
+        <h4>QUICK LINKS</h4>
+        <p><a class ='footer-link' href='home.html'>HOME</a></p>
+        <p><a class ='footer-link' href='contact.html'>CONTACT</a></p>
+        <p><a class ='footer-link' href='services'>SERVICES</a></p>
+        <p><a class ='footer-link' href='appointment.html'>APPOINTMENT</a></p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="social-links mt-4">
+        <h4>SOCIAL</h4>
+      <p> <a href = 'facebook.com'><i class="fab fa-facebook"></i></a></p>
+     <p> <a href = 'twitter.com'><i class="fab fa-twitter"></i></a></p>
+     <p> <a href = 'instagram.com'><i class="fab fa-instagram"></i></a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+     
+  
+  </footer>
+    </html>
 

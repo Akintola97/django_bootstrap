@@ -141,8 +141,6 @@ color:white;
     width:120px;
 }
 
-
-
 /*footer*/
 
 .footer-new{
@@ -263,6 +261,19 @@ left:0;
 }
 
 
+/*shop page nav*/
+
+.fa-shopping-cart{
+    color:white;
+}
+
+/*shop main*/
+.mainshop{
+    background-color: aliceblue;
+}
+.mainshop .card img{
+    width:100%;
+}
 
 
 
@@ -528,13 +539,6 @@ left:0;
 
 /* Shop page */
 
-.section-mainshop product card{
-    width:100%;
-    
-}
- svg{
-    height:25px;
-}
 
 
 /* Checkout-page */
