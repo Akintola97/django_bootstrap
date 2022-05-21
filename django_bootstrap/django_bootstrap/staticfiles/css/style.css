@@ -46,6 +46,7 @@ left:0;
 
 #vid .content h1{
     color:black;
+    font-size: 4vmin;
 }
 
 
@@ -132,10 +133,10 @@ color:white;
 }
 
 .insurance-text h1{
-    font-size:4vmin;
+    font-size:6vmin;
 }
 .insurance-text h6{
-    font-size:2vmin;
+    font-size:4vmin;
 }
 
 .insurance-images .row img{
