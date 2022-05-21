@@ -266,6 +266,23 @@ left:0;
 
 /*services page */
 
+body .cover{
+ background-image:url("/images/dentist-bedside.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+min-height:65vh;
+width:100%;
+position:relative;
+}
+
+.cover-overlagy{
+
+}
+
+
+
+
+
 /*shop page nav*/
 
 .fa-shopping-cart{
