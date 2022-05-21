@@ -11,11 +11,13 @@
 }
 
 .logo-img{
-    color:white;
     font-size: 20px;
     padding-right:8px;
 }
 
+.fa-tooth{
+    color:white;
+}
 
 #vid{
     position: relative;
