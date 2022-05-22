@@ -339,19 +339,19 @@ display:block; /*This gets rid of the small margin under the video*/
 }
 
 
-/*services-section1*/
+/*services-section2*/
 
-.services-section1{
+.services-section2{
     padding:20vmin 0;
     background-color: aliceblue;
 }
 
-.services-section1 .dental-care img{
+.services-section2 .dental-care img{
     width:100%;
     height:100%;
     border-radius: 0.2em;
 }
-.services-section1 .dental-caretext{
+.services-section2 .dental-caretext{
     background-color:aliceblue;
     border-radius: 3px;
     text-align: left;
@@ -361,11 +361,11 @@ display:block; /*This gets rid of the small margin under the video*/
 }
 
 
-.services-section1 .dental-caretext ul li{
+.services-section2 .dental-caretext ul li{
     list-style-type: none;
     padding-top: .25em;
 }
-.services-section1 .dental-caretext ul li .fa-check-circle{
+.services-section2 .dental-caretext ul li .fa-check-circle{
     color:green;
 }
 
