@@ -310,11 +310,64 @@ display:block; /*This gets rid of the small margin under the video*/
    font-size: 3vmin;
 }
 
+.accordion{
+    background-color: none;
+}
+
+.accordion .card {
+    box-sizing: border-box;
+    border:2px solid #addbc6; 
+    border-radius: 20px;
+   width:100%;
+
+}
+.accordion .card a:hover{
+  border: none;
+
+}
+.accordion .card .card-header{
+    background-color: white;
+}
+
+.accordion .btn-link:hover{
+    text-decoration: none;
+}
+
+.accordion .btn-link h4{
+    color:black;
+    text-decoration: none;
+}
 
 
+/*services-section1*/
+
+.services-section1{
+    padding:20vmin 0;
+    background-color: aliceblue;
+}
+
+.services-section1 .dental-care img{
+    width:100%;
+    height:100%;
+    border-radius: 0.2em;
+}
+.services-section1 .dental-caretext{
+    background-color:aliceblue;
+    border-radius: 3px;
+    text-align: left;
+    padding:13vmin 5vmin 20vmin 10vmin;
+    box-shadow:0px 25px 42px rgba(0,0,0,0.2);
+    z-index: 1;
+}
 
 
-
+.services-section1 .dental-caretext ul li{
+    list-style-type: none;
+    padding-top: .25em;
+}
+.services-section1 .dental-caretext ul li .fa-check-circle{
+    color:green;
+}
 
 
 
