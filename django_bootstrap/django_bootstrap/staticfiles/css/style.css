@@ -374,6 +374,30 @@ display:block; /*This gets rid of the small margin under the video*/
 }
 
 
+/*contact-page */
+
+#vid-3{
+    position:relative;
+}
+#vid-3 video{
+    width:100%;
+    height:100%;
+    background-position:absolute;
+    object-fit: cover;
+    font-family:'object-fit:cover;';
+    display:block;
+}  
+#vid-3 .text{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 20;
+}  
+
+
+
 
 /*shop page nav*/
 
