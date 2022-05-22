@@ -301,11 +301,13 @@ display:block; /*This gets rid of the small margin under the video*/
 
 
 .full-service{
-    height:400px;
     background-color: white;
 }
 .full-service h4{
    font-size: 4vmin;
+}
+.full-service h6{
+   font-size: 3vmin;
 }
 
 
