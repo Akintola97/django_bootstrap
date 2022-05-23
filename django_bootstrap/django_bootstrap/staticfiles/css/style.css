@@ -414,7 +414,7 @@ display:block; /*This gets rid of the small margin under the video*/
 }
 
 
-/* Contact-page main*/
+/* Contact-page */
 
 .contact-us{
     background-color: aliceblue;
@@ -431,6 +431,42 @@ main .row a{
     text-decoration: none;
     color:black;
 }
+
+/* Appointment page */
+.appointment-body{
+    position:relative;
+}
+
+.appointment-body .appointment-image img{
+    width:100%;
+    height:55vmin;
+    background-position: absolute;
+    background-size: cover;
+}
+
+.appointment-text{
+    background-color: rgba(0,0,0,0.2);
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.appointment-text h3{
+   color:white;
+   font-size:4.5vmin;
+}
+.appointment-text h4{
+   color:white;
+   font-size:3.5vmin;
+}
+.appointment-text h6{
+   color:white;
+   font-size:3.0vmin;
+}
+
+
+
 
 
 /* Checkout-page */

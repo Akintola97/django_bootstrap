@@ -4,5 +4,38 @@
  
  
      {% block content %}
-    <div class = ''></div>
+     <body>
+      <div class="appointment-body">
+        <div class="appointment-image">
+          <img src ='{% static "/images/appointment.jpg" %}'>
+        </div>
+<div class="appointment-text d-flex align-items-center text-center">
+  <div class="container">
+    <h3>Can't Make it to the Phone?</h3>
+    <h4>No Problem!</h4>
+    <h6 class="pt-4">Set Up an Appointment Online!</h6>
+  </div>
+</div>
+        </div>
+  
+</body>
+     <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="exampleName">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="exampleEmail">
+        </div>
+        <div class="form-group">
+          <label for="phone-number">Phone Number</label>
+          <input type="number" class="form-control" id="exampleNumber">
+        </div>
+        <div class="form-group">
+          <label for="Message">Message</label>
+          <input type="email" class="form-control" id="exampleEmail">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
      {% endblock content %}
