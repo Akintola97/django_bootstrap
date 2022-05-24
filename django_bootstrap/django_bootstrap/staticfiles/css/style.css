@@ -394,44 +394,24 @@ display:block; /*This gets rid of the small margin under the video*/
     top:0;
     left:0;
     z-index: 20;
-}  
-
-
-
-
-/*shop page nav*/
-
-.fa-shopping-cart{
-    color:white;
 }
-
-/*shop main*/
-.mainshop{
-    background-color: aliceblue;
-}
-.mainshop .card img{
-    width:100%;
-}
-
-
-/* Contact-page */
 
 .contact-us{
-    background-color: aliceblue;
-}
-
-main .row .card{
-    transition:all .2s ease-in-out;
-    background-color: aliceblue;
-}
-main .row .card:hover{
-    transform:scale(1.1);
-}
-main .row a{
-    text-decoration: none;
-    color:black;
-}
-
+        background-color: aliceblue;
+    }
+    
+    main .row .card{
+        transition:all .2s ease-in-out;
+        background-color: aliceblue;
+    }
+    main .row .card:hover{
+        transform:scale(1.1);
+    }
+    main .row a{
+        text-decoration: none;
+        color:black;
+    }
+ 
 /* Appointment page */
 .appointment-body{
     position:relative;
@@ -476,24 +456,17 @@ main .row a{
     
 }
 
+/*shop page */
 
-
-
-/* Checkout-page */
-.form-field{
-    width:250px;
-    display:inline-block;
-    padding:5px;
+.fa-shopping-cart{
+    color:white;
 }
 
-.hidden{
-    display: none;
+.mainshop{
+    background-color: aliceblue;
+}
+.mainshop .card img{
+    width:100%;
 }
 
-.checkout-image .checkout-img{
-    height:30px;
-}
 
-#checkout-row .price-tag{
-   text-align: center;
-}
